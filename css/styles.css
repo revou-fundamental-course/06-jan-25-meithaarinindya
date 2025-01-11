@@ -1,0 +1,39 @@
+.main-header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    border-radius :50%;
+    height:50px;
+    width:50px;
+    background-image: url(../pict/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav > a {
+    border:1px solid black;
+    border-radius: 12px 0 0 12px;
+    padding: 8px;
+    color:black;
+    cursor:pointer;
+    text-decoration:none
+}
+
+.banner-image {
+    height: 675px;
+    background-image:url(../pict/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 500px;
+
+}
+
+.footer {
+    text-align: center
+}
