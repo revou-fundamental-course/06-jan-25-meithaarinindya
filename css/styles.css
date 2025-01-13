@@ -14,12 +14,19 @@
 }
 
 nav > a {
-    border:1px solid black;
-    border-radius: 12px 0 0 12px;
+    border: 1px solid black;
     padding: 8px;
     color:black;
     cursor:pointer;
     text-decoration:none
+}
+
+.left-rounded {
+    border-radius: 6px 0 0 6px
+}
+
+.right-rounded {
+    border-radius: 0 6px 6px 0
 }
 
 .banner-image {
@@ -30,8 +37,39 @@ nav > a {
 }
 
 .content {
-    height: 500px;
+    height: 700px;
+}
 
+.jkt {
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    background-image: url(../pict/jkt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bdg {
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    background-image: url(../pict/bdg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sby {
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    background-image: url(../pict/sby.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
+    display: inline-flex;
+    align-content: center;
 }
 
 .footer {
